@@ -34,8 +34,7 @@ export const dataProductListBanner = [
   {
     id: 5,
     name: "MD DERMATICS Sun Protection Complex SP SPF40",
-    introduce:
-      "Kem chống nắng phổ rộng chống lão hoá & dưỡng ẩm (da dầu & mụn)",
+    introduce: "Kem chống nắng",
     price: "2,000,000đ",
     linkImg:
       "https://www.milem.vn/fileserver/images/file/resize-400x400/upload/product/PR629da50943f66/center-spf40.png?v=1.3",
