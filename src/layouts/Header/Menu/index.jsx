@@ -6,6 +6,7 @@ import { Input } from "antd";
 import Navigation from "./Navigation";
 import iconBag from "../../../assets/images/icon/iconBag.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Menu = () => {
   const [productCart, setProductCart] = useState(0);
   function handleToTalProduct() {
@@ -18,7 +19,9 @@ const Menu = () => {
         {/* Menu Left  */}
         <S.LogoWrapper>
           {" "}
-          <img src={logo} alt="logo" width="100%" />{" "}
+          <Link to={"/"}>
+            <img src={logo} alt="logo" width="100%" />{" "}
+          </Link>
         </S.LogoWrapper>
         <S.MenuContentWrapper>
           <S.Search_Account_CartWrapper>

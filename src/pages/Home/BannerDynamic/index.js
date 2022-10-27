@@ -12,7 +12,7 @@ function Banner() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    autoplaySpeed: 500,
+    autoplaySpeed: 2000,
   };
   return (
     <S.bannerWrapper>

@@ -7,15 +7,6 @@ export const NewProductWrapper = styled.div`
   .slider__banner-newProduct {
     margin-bottom: 20px;
   }
-  :hover {
-    .slick-prev,
-    .slick-next {
-      color: var(--swiper-theme-color);
-      transition: opacity 0.3s ease;
-      background-color: gray;
-      height: 30px;
-    }
-  }
 `;
 
 export const HeadTitle = styled.div`
@@ -26,7 +17,17 @@ export const HeadTitle = styled.div`
 export const NewProduct = styled.div`
   margin-bottom: 20px;
 `;
-export const ProductListWrapper = styled.div``;
+export const ProductListWrapper = styled.div`
+  :hover {
+    .slick-prev,
+    .slick-next {
+      color: var(--swiper-theme-color);
+      transition: opacity 0.3s ease;
+      background-color: gray;
+      height: 30px;
+    }
+  }
+`;
 export const ProductWrapper = styled.div`
   width: calc(1140px / 4);
   text-align: center;

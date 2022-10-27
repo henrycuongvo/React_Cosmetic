@@ -52,8 +52,10 @@ function Footer() {
                 <Col className="col" span={6}>
                   <div className="menu">
                     <br />
-                    <div className="title"> Menu</div>
-                    <br />
+                    <div className="title" style={{ paddingTop: "20px" }}>
+                      {" "}
+                      Menu
+                    </div>
                     <ul className="menu_content">
                       <li> Sản phẩm</li>
                       <li> Hàng mới về</li>

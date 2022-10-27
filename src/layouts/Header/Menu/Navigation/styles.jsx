@@ -9,9 +9,8 @@ export const ContentWrapper = styled.div`
   justify-content: space-around;
   align-items: center;
 `;
-export const Product = styled.div``;
-export const NewProduct = styled.div``;
-export const BrandName = styled.div``;
-export const Cosmetic1994 = styled.div``;
-export const Store = styled.div``;
-export const TheSpa = styled.div``;
+export const PageChildren = styled.div`
+  a {
+    color: #333;
+  }
+`;
