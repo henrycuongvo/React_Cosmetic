@@ -6,6 +6,7 @@ const Brands = () => {
     <>
       <S.ImgWrapper>
         <img className="DiorImg" src={DiorBrand} alt=" DiorImg" />
+        <h2> Hello</h2>
       </S.ImgWrapper>
     </>
   );

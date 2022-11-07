@@ -1,7 +1,13 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 const Products = () => {
-  return <div>Products</div>;
+  useEffect(() => {}, []);
+
+  return (
+    <>
+      <div>Products</div>
+    </>
+  );
 };
 
 export default Products;
