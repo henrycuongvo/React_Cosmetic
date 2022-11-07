@@ -10,6 +10,8 @@ function App() {
       <div className="App">
         <Routes>
           {publicRoutes.map((route, index) => {
+            if (route.layout) {
+            }
             const Page = route.component;
             return <Route key={index} path={route.path} element={<Page />} />;
           })}

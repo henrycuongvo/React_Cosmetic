@@ -11,8 +11,6 @@ const publicRoutes = [
   { path: "/productdetail", component: ProductDetail },
   { path: "/sellingproducts", component: SellingProducts },
   { path: "/suggestedproducts", component: SuggestedProducts },
-  { path: "/login", component: Login },
-  { path: "/register", component: Register },
 ];
 const privateRoutes = [];
 export { publicRoutes, privateRoutes };

@@ -4,7 +4,7 @@ import MilemProduct from "../../../assets/images/newProducts/milemskiiantiaging.
 import GlacierProduct from "../../../assets/images/newProducts/glaciers.png";
 import Slider from "react-slick";
 import { dataProductListBanner } from "../../../data";
-import { Link } from "react-router-dom";
+// import { Link } from "~";
 import { useNavigate } from "react-router";
 function NewProduct() {
   const settings = {
